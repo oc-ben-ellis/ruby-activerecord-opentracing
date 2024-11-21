@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'signalfx_test_tracer', '~> 0.1.4'
   spec.add_development_dependency 'sqlite3', '~> 1.4.2'
 
-  spec.add_dependency 'activerecord', '>= 5.2', '< 7.0'
+  spec.add_dependency 'activerecord', '>= 4.0.13', '< 7.0'
   spec.add_dependency 'opentracing', '~> 0.5'
 end
